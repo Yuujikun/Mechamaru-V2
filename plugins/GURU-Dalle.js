@@ -22,5 +22,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['dalle'];
 handler.tags = ['AI'];
-handler.command = ['dalle', 'gen', 'imagine'];
+handler.command = ['create', 'dalle', 'imagine'];
 export default handler;
