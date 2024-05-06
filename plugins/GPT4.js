@@ -5,8 +5,8 @@ import {delay} from '@whiskeysockets/baileys'
 
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   try {
-    if (!text) throw `uhm.. what do you want to say?`
-    m.react('🤖')
+    if (!text) throw `And what do you want to say?`
+    m.react('🦚')
     //await displayLoadingScreen(conn, m.chat)
 
 
@@ -21,7 +21,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
        
   } catch (error) {
     console.error(error);
-    m.reply('Oops! Something went wrong. , we are trying had to fix it asap');
+    m.reply('Ara! system error. , we'll fix it as soon as I get some cash🙂');
   }
 }
 handler.help = ['gemini <text>']
