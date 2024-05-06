@@ -21,7 +21,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
        
   } catch (error) {
     console.error(error);
-    m.reply('Ara! system error. , we'll fix it as soon as I get some cash🙂');
+    m.reply('Ara! system error. , we will fix it as soon as I get some cash🙂');
   }
 }
 handler.help = ['gemini <text>']
