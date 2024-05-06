@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `Please provide some text or quote a message to get a response.`;
+    throw `Darling, provide some text or quote a message to get a response.`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
@@ -72,6 +72,6 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 };
 handler.help = ['chatgpt']
 handler.tags = ['AI']
-handler.command = ['bro', 'chatgpt', 'ai', 'gpt'];
+handler.command = ['oneechan', 'meimei', 'ai', 'gpt'];
 
 export default handler;
