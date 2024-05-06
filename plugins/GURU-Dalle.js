@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`;
+  if (!text) throw `*This similar jujutsu generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} MeiMei on swimsuit*\n*◉ ${usedPrefix + command} Elon Musk in anime style*`;
 
   try {
     m.reply('*Please wait, generating images...*');
@@ -22,5 +22,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['dalle'];
 handler.tags = ['AI'];
-handler.command = ['dalle', 'gen', 'imagine', 'openai2'];
+handler.command = ['dalle', 'gen', 'imagine'];
 export default handler;
