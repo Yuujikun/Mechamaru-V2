@@ -22,5 +22,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['bingimg2'];
 handler.tags = ['AI'];
-handler.command = ['create', 'bingimg2'];
+handler.command = ['dalle2', 'bingimg2'];
 export default handler;
