@@ -27,7 +27,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 
       if (!result) {
         
-        throw new Error('No valid JSON response from the first API');
+        throw new Error('credit me cash to reply you🤡');
       }
 
       await conn.relayMessage(m.chat, {
