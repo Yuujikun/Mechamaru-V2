@@ -549,7 +549,7 @@ let str = `
 ┌─➢『 *_conversion_* 』❖
 ┃❏*convert
 ╰─────────────────➢
-XLICON-𝙼𝙳-𝚅𝟸 𝙱𝚈 AB AND SALMAN`
+Mei-𝙼𝙳-𝚅1⁠.♡
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
