@@ -4,22 +4,22 @@ global.rpg = {
     if (isNaN(level)) return { name: "", level: "" };
 
     const role = [
-      { name: "Beginner", level: 0 },
-      { name: "Lobster Larva", level: 5 }, //»»————⍟——««\n
-      { name: "Octopus Apprentice", level: 10 },
-      { name: "Siren's Apprentice", level: 15 },
-      { name: "🐬 Dolphin Diplomat", level: 20 },
-      { name: "🥷 Sea Serpent Tamer", level: 25 }, //𐏓・,〔𒁷, 𒆜〢
-      { name: "⚔ Kraken Hunter", level: 30 },
-      { name: "👑 Sea King", level: 35 },
-      { name: "🪼 Neptune's Protege", level: 40 },
-      { name: "🐍 Abyssal Ambassador", level: 45 },
-      { name: "👹 Guardian of the Abyss", level: 50 },
-      { name: "🧙‍♂️ Deep Sea Sage", level: 60 },
-      { name: "🧝‍♂️ Master of Atlantis", level: 70 },
-      { name: "🐲 Legendary Leviathan", level: 80 },
-      { name: "🔮 Ocean Overlord 🔮", level: 90 },
-      { name: "🔱 Emperor of the Seven Seas 🔱", level: 100 },
+      { name: "common human", level: 0 },
+      { name: "New born Sorcerer", level: 5 }, //»»————⍟——««\n
+      { name: "Grade 3 curse spirit", level: 10 },
+      { name: "Grade 3 sorcerer", level: 15 },
+      { name: "Grade 2 curse spirit", level: 20 },
+      { name: "Grade 2 sorcerer", level: 25 }, //𐏓・,〔𒁷, 𒆜〢
+      { name: "⚔ Grade 1 curse spirit", level: 30 },
+      { name: "🥷 Grade 1 sorcerer", level: 35 },
+      { name: "Special Grade", level: 40 },
+      { name: "🐍 HANAMI~curse of nature", level: 45 },
+      { name: "👹 JOGO~ disaster spirit of flames", level: 50 },
+      { name: "🧌 MAHITO~master of soul manipulation", level: 60 },
+      { name: "🧝‍♂️ GETO~master of curse manipulation", level: 70 },
+      { name: "🐲 YUTA~the potential sorcerer", level: 80 },
+      { name: "🔮🤞🏻GOJO~THE HONORED ONE🤞🏻🔮", level: 90 },
+      { name: "🔱👨🏼‍🍳 RYOMEN SUKUNA~MASTER OF ALL 👨🏼‍🍳🔱", level: 100 },
     ];
 
     return role.reverse().find((role) => level >= role.level);
