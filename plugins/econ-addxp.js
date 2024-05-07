@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   else who = m.chat
   if (!who) throw '✳️ Tag the user'
   let txt = text.replace('@' + who.split`@`[0], '').trim()
-  if (!txt) throw '✳️ Enter the amount of *XP* you want to add'
+  if (!txt) throw '✳️ Enter the amount of *CE* you want to add'
   if (isNaN(txt)) throw ' 🔢 only numbers'
   let xp = parseInt(txt)
   let exp = xp
@@ -15,7 +15,7 @@ let handler = async (m, { conn, text }) => {
   let users = global.db.data.users
   users[who].exp += xp
 
-  await m.reply(`≡ *XP ADDED*
+  await m.reply(`≡ *CURSE ENERGY ADDED*
 ┌──────────────
 ▢  *Total:* ${xp}
 └──────────────`)
@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
 
 handler.help = ['addxp <@user>']
 handler.tags = ['economy']
-handler.command = ['addxp'] 
+handler.command = ['addce'] 
 handler.rowner = true
 
 export default handler
