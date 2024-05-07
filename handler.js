@@ -121,7 +121,7 @@ export async function handler(chatUpdate) {
                     banned: false,
                     warn: 0,
                     level: 0,
-                    role: 'Tadpole',
+                    role: 'common human',
                     autolevelup: false,
                     
                 }
