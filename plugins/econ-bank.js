@@ -20,7 +20,7 @@ let handler = async (m, {conn, usedPrefix}) => {
         } else if (`${user.bank}` <= 1000000000){
             wealth = 'Multi-Millionaire🤑'
         } else if (`${user.bank}` <= 10000000000){
-            wealth = 'Billionaire🤑🤑'
+            wealth = 'Billionaire🦚'
         }    
     
     conn.reply(m.chat, `🏦 *Bank | ${username}*
