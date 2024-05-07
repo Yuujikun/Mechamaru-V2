@@ -38,12 +38,12 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 
-  ཌ|━━🤖 _BOT STATUS:_🤖━━|ད
+  ཌ|━━🦚 _BOT STATUS:_🦚━━|ད
   ⚀------- *IPHONE-MENU* ------⚀
 
-┌─𐂅  *MADE BY XLICON*  𐂅
-| ❁✓  *Creator:* XLICON-TEAM
-| 🤖  *Bot Name:* XLICON-V2
+┌─𐂅  * MEIMEI *  𐂅
+| ❁✓  *Creator:* Blac Yuji
+| 🤖  *Bot Name:* MEI MEI
 | 💻  *Host:* Linux 🟩
 | 📣  *Prefix:* ${usedPrefix} 
 | 🕓  *Uptime:* ${uptime}
@@ -59,8 +59,8 @@ let str = `
 ┌─𐂅「 *👤USER* 」
 | 👾  *User Tag:* ${taguser} 
 | 😇  *Name:* ${name} 
-| ✰  *Master Mind:* AB&SALMAN
-| 💎  *Diamonds:* -9999
+| ✰  *Master Mind:* BLACYUJI
+| 💎  *Diamonds:* ${diamond}
 | 🏆  *Rank:* ${role}
 | 🎮  *XP:* ${exp} 
 ╰───────────────▶
