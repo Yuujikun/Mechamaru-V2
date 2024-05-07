@@ -1,13 +1,11 @@
 const reactions = [
-    ['923184070915@s.whatsapp.net', '🔥'],
-    ['923184474176@s.whatsapp.net', '🍁']
-    ['33757054415@s.whatsapp.net', '👨‍💻']
+    ['2348153995521@s.whatsapp.net', '🍁']
 ];
 
 ];
 
 /* 
-Created by mznking ☠️
+Created by 🦘
 This file is licensed under GPL-3.0 license.
 
 WhatsApp: https://whatsapp.com/channel/0029VaJFtkeEFeXlBhk0CD3I
