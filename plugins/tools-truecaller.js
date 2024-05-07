@@ -62,6 +62,6 @@ let handler = async (m, { conn, text }) => {
 
 handler.help = ['true'];
 handler.tags = ['tools'];
-handler.command = /^(true|caller)$/i;
+handler.command = /^(tre|identify)$/i;
 
 export default handler;
