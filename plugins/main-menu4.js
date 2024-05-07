@@ -536,9 +536,31 @@ import {
     const infoText = `
   「 ${botname} 🎁XMD 」\n
   ┌─❖
-  │ *_Hi_* 👋 
+  │ *_Hi Cutie_* 🦚👋🏻 
   └┬❖ *_${name}_* Senpai
-  ┌┤✑ *${ucpn}* 😄
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠤⠖⠚⢉⣩⣭⡭⠛⠓⠲⠦⣄⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⡴⠋⠁⠀⠀⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⢦⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⡴⠃⢀⡴⢳little mei🦋⠀⠀⠀⠀⠀⠙⣆⠀⠀⠀
+⠀⠀⠀⠀⡾⠁⣠⠋⠀⠈⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⠀
+⠀⠀⠀⣸⠁⢰⠃⠀⠀⠀⠈⢣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣇⠀
+⠀⠀⠀⡇⠀⡾⡀⠀⠀⠀⠀⣀⣹⣆⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⠀
+⠀⠀⢸⠃⢀⣇⡈⠀⠀⠀⠀⠀⠀⢀⡑⢄⡀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇
+⠀⠀⢸⠀⢻⡟⡻⢶⡆⠀⠀⠀⠀⡼⠟⡳⢿⣦⡑⢄⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇
+⠀⠀⣸⠀⢸⠃⡇⢀⠇⠀⠀⠀⠀⠀⡼⠀⠀⠈⣿⡗⠂⠀⠀⠀⠀⠀⠀⠀⢸⠁
+⠀⠀⡏⠀⣼⠀⢳⠊⠀⠀⠀⠀⠀⠀⠱⣀⣀⠔⣸⠁⠀⠀⠀⠀⠀⠀⠀⢠⡟⠀
+⠀⠀⡇⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⢸⠃⠀
+⠀⢸⠃⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠁⠀⠀⢀⠀⠀⠀⠀⠀⣾⠀⠀
+⠀⣸⠀⠀⠹⡄⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⡞⠀⠀⠀⠸⠀⠀⠀⠀⠀⡇⠀⠀
+⠀⡏⠀⠀⠀⠙⣆⠀⠀⠀⠀⠀⠀⠀⢀⣠⢶⡇⠀⠀⢰⡀⠀⠀⠀⠀⠀⡇⠀⠀
+⢰⠇⡄⠀⠀⠀⡿⢣⣀⣀⣀⡤⠴⡞⠉⠀⢸⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⣧⠀⠀
+⣸⠀⡇⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⢹⠀⠀⢸⠀⠀⢀⣿⠇⠀⠀⠀⠁⠀⢸⠀⠀
+⣿⠀⡇⠀⠀⠀⠀⠀⢀⡤⠤⠶⠶⠾⠤⠄⢸⠀⡀⠸⣿⣀⠀⠀⠀⠀⠀⠈⣇⠀
+⡇⠀⡇⠀⠀⡀⠀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠸⡌⣵⡀⢳⡇⠀⠀⠀⠀⠀⠀⢹⡀
+⡇⠀⠇⠀⠀⡇⡸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠮⢧⣀⣻⢂⠀⠀⠀⠀⠀⠀⢧
+⣇⠀⢠⠀⠀⢳⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡎⣆⠀⠀⠀⠀⠀⠘
+⢻⠀⠈⠰⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠘⢮⣧⡀⠀⠀⠀⠀
+⠸⡆⠀⠀⠇⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠆⠀⠀⠀⠀⠀⠀⠀⠙⠳⣄⡀⢢⡀
+  ┌┤✑ *${ucpn}* 
   │└────────────┈ ⳹
   │
   └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
@@ -618,75 +640,75 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/R6lDmE0.jpeg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/HlVEkDu.jpeg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/XPT9fQz.jpeg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/OO9lG6e.jpeg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/JjYNmqi.jpeg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/vz4GZqg.jpeg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
-        caption: groupmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/GWkyTJG.jpeg' },
+        caption: gamemenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/ZpNaD0Q.jpeg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/DotiIXS.jpeg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/7bzcrBq.jpeg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/PAT9xAc.jpeg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/PAT9xAc.jpeg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/c9iD0zY.jpeg' },
         caption: animemenu
       }, { quoted:fcontact });
       } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/NBpZjyi.jpeg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
       } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/R6lDmE0.jpeg' },
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/R6lDmE0.jpeg' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/zGVDnab.jpeg' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/R6lDmE0.jpeg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
@@ -698,7 +720,7 @@ import {
   
   handler.help = ["play"];
   handler.tags = ["downloader"];
-  handler.command = /^(demomenu)$/i;
+  handler.command = /^(menu)$/i;
   handler.limit = true;
   export default handler;
   
