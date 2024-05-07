@@ -31,6 +31,6 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 };
 
 handler.command = /^gpt5$/i;
-handler.tags = ['study'];
+handler.tags = ['jarvis'];
 
 export default handler;
