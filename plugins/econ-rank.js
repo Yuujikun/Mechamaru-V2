@@ -32,7 +32,7 @@ let handler = async (m, { conn }) => {
   .renderEmojis(true)
   .build();
 
-  const str = `🏮 *Username:* ${username}\n\n⭐ *Experience:* ${crxp} / ${requiredXpToLevelUp}\n\n🏅 *Rank:* *${role}*`
+  const str = `🏮 *Username:* ${username}\n\n⭐ *CURSE ENERGY:* ${crxp} / ${requiredXpToLevelUp}\n\n🏅 *Rank:* *${role}*`
 
   try {
     conn.sendFile(m.chat, card, 'rank.jpg', str, m, false, { mentions: [who] });
