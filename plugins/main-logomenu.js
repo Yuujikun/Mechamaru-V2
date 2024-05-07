@@ -57,7 +57,7 @@ let str = ` *☑️ MEIMEI ☑️*
 │⬡▸
 │ *${usedPrefix}logo ғᴏʀ logo ᴄᴏᴍᴍᴀɴᴅs*
 │ Please *${greeting}*
-│  *MADE BY XLICON TEAM*
+│  *MADE WITH LOVE BY BLACYUUJI*
 ╰━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
