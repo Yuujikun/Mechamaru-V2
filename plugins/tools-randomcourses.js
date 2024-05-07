@@ -23,7 +23,7 @@ let handler = async (m, { conn }) => {
 
     // Send the course data
     conn.reply(m.chat, courseData, m);
-    m.react('🤩');
+    m.react('👨🏼‍🎓');
   } catch (e) {
     console.error(e);
     m.react('error');
