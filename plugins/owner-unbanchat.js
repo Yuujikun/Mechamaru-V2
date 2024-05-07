@@ -7,6 +7,6 @@ let handler = async (m, { conn, isOwner, isAdmin, isROwner} ) => {
 }
 handler.help = ['unbanchat']
 handler.tags = ['owner']
-handler.command = ['chaton', 'unbanchat'] 
+handler.command = ['chaton', 'wake'] 
 
 export default handler
