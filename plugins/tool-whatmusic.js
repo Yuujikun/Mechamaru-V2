@@ -27,7 +27,7 @@ let txt = `
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
 m.reply(txt)
-} else throw '*𝚁𝙴𝚂𝙿𝙾𝙽𝙳 𝙰𝚄𝙳𝙸𝙾*'
+} else throw '*𝚁𝙴𝚂𝙿𝙾𝙽𝙳 to 𝙰𝚄𝙳𝙸𝙾*'
 }
 
 handler.help = ['shazam']
