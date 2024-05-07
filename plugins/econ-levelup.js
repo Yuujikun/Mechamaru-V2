@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
 ▢ Role : *${user.role}*
 └──────────────
 
-Hey there, ${name}! You're not ready to level up just yet. It seems like you need to munch up *${max - user.exp}* more XP to level up and reach new heights! Keep going, and the bots will be singing your praises soon! 🚀
+Hey there, ${name}! You're not ready to level up just yet. It seems like you need to munch up *${max - user.exp}* more CURSE ENERGY to level up and reach new heights! Keep going, and the bots will be singing your praises soon! 🚀
 `.trim();
 
         try {
