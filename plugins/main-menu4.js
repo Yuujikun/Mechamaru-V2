@@ -627,7 +627,7 @@ import {
           delete: key
       });
       delete conn.gurumenu[m.sender];
-  }, 60 * 1000),
+  }, 600 * 1000),
   };
   };
   
