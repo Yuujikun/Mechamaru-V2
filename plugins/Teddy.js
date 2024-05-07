@@ -10,7 +10,7 @@ let teddy = async (m, { conn, text, args, usedPrefix, command }) => {
       }
     }
     await conn.chatRead(m.chat);
-    await m.reply('✅');
+    await m.reply('😘');
   } catch (error) {
     console.error(error);
     m.reply('Oops! Something went wrong.');
