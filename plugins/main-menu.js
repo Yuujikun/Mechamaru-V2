@@ -228,7 +228,7 @@ import {
    throw e
   }
  }
- handler.command = /^(menu|help|\?)$/i
+ handler.command = /^(menu|\?)$/i
  
 
  
