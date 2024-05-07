@@ -100,9 +100,9 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.warn))
                     user.warn = 0
                 if (!isNumber(user.level))
-                    user.level = 0
+                    user.level = 1
                 if (!('role' in user))
-                    user.role = 'Tadpole'
+                    user.role = 'Common human'
                 if (!('autolevelup' in user))
                     user.autolevelup = false
             } else {
@@ -120,7 +120,7 @@ export async function handler(chatUpdate) {
                     afkReason: '',
                     banned: false,
                     warn: 0,
-                    level: 0,
+                    level: 1,
                     role: 'common human',
                     autolevelup: false,
                     
