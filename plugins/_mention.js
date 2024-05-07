@@ -8,7 +8,7 @@
 
 let handler = m => m
 handler.all = async function (m, conn) {
-    var vn = .`/Assets/mp3/${pickrandom[("yuji", "yuji1", "yuji2", "yuji3")]}.mp3`
+    var vn = `./Assets/mp3/${pickRandom(["Yuji", "Yuji1", "Yuji2", "Yuji3"])}.mp3`
     let url = "https://github.com/Yuujikun"
     let murl = "https://www.instagram.com/black_yuuji/"
     let hash = global.botname
