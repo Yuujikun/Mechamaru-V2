@@ -22,6 +22,6 @@ m.react(done)
 }
 handler.help = ['allmenu']
 handler.tags = ['main']
-handler.command = ['study', 'sd', 'studymenu'] 
+handler.command = ['sd', 'studymenu'] 
 
 export default handler
