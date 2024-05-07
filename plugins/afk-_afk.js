@@ -4,9 +4,9 @@ export function before(m) {
     let user = global.db.data.users[m.sender]
     if (user.afk > -1) {
         m.reply(`
-  ✅ You stopped being AFK 
+  ✅📤 You broke the seal 
 ${user.afkReason ? ' \n⬡▸  *Reason :* ' + user.afkReason : ''}
-⬡▸  *AFK Duration :* ${(new Date - user.afk).toTimeString()}
+⬡▸  *SEALED Duration :* ${(new Date - user.afk).toTimeString()}
   `.trim())
         user.afk = -1
         user.afkReason = ''
@@ -21,10 +21,10 @@ ${user.afkReason ? ' \n⬡▸  *Reason :* ' + user.afkReason : ''}
             continue
         let reason = user.afkReason || ''
         m.reply(`
-💤 The human u mentioned is afk 
+💤🥡🔗 The human u mentioned is SEALED
 
 ${reason ? '▢ *Reason* : ' + reason : '▢ *Reason* : Without reason'}
-▢ *AFK Duration :* ${(new Date - afkTime).toTimeString()}
+▢ *SEAL Duration :* ${(new Date - afkTime).toTimeString()}
   `.trim())
     }
     return true
