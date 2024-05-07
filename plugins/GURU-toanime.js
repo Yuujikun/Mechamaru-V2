@@ -2,7 +2,7 @@ import uploadImage from '../lib/uploadImage.js'
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ""
-if (!/image/g.test(mime)) throw '*Respond to a image*'
+if (!/image/g.test(mime)) throw '*tag the image*'
 m.reply('*This command can turn your photo into anime*')    
 let data = await q.download?.()
 let image = await uploadImage(data)
