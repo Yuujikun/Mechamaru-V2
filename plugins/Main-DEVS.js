@@ -20,7 +20,7 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
   const cat = `*_MEISAMA-V1_*
 
-*_—🔰 meisama 𝐯1  𝐃𝐄𝐕 wa.me/+2348153995521 %dont_contact_me🫥%_*
+*_—🦚 meisama 𝐯1  𝐃𝐄𝐕 wa.me/+2348153995521 %dont_contact_me🫥%_*
 *---------------------*
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
