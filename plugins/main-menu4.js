@@ -534,7 +534,7 @@ import {
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-  「 ${botname} 🎁XMD 」\n
+  「 ${botname} 🦚XMD 」\n
   ┌─❖
   │ *_Hi Cutie_* 🦚👋🏻 
   └┬❖ *_${name}_* Senpai
@@ -564,7 +564,7 @@ import {
   │└────────────┈ ⳹
   │
   └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
-  │𝐁𝐎𝐓 : ${botname}
+  │𝐁𝐎𝐓 : ${botname}🦚
   │𝐌𝐨𝐝𝐞 : ${mode}
   │𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${platform}
   │𝐇𝐨𝐬𝐭 : Kali linux
@@ -593,23 +593,23 @@ import {
   │✑  Please Reply *MENU Number*
   │✑  Given *BELOW*
 ┌──────────────┈ ⳹
-│ *1.*  ❏ Bot Menu
-│ *2.*  ❏ Owner Menu
-│ *3.*  ❏ Group Menu
-│ *4.*  ❏ Fun Menu
-│ *5.*  ❏ Reaction Menu
-│ *6.*  ❏ Downloader Menu
-│ *7.*  ❏ Game Menu
-│ *8.*  ❏ Logo Menu
-│ *9.*  ❏ Sticker Menu
-│ *10.* ❏ Audio Menu
-│ *11.* ❏ News Menu
-│ *12.* ❏ Economy Menu 
-│ *13.* ❏ Anime Menu 
-│ *14.* ❏ Coming Soon
-│ *15.* ❏ Tools Menu 
-│ *16.* ❏ Ai Menu 
-│ *17.* ❏ Plugin Menu 
+│ *1*  ❏ Bot Menu
+│ *2*  ❏ Owner Menu
+│ *3*  ❏ Group Menu
+│ *4*  ❏ Fun Menu
+│ *5*  ❏ Reaction Menu
+│ *6*  ❏ Downloader Menu
+│ *7*  ❏ Game Menu
+│ *8*  ❏ Logo Menu
+│ *9*  ❏ Sticker Menu
+│ *10* ❏ Audio Menu
+│ *11* ❏ News Menu
+│ *12* ❏ Economy Menu 
+│ *13* ❏ Anime Menu 
+│ *14* ❏ Coming Soon
+│ *15* ❏ Tools Menu 
+│ *16* ❏ Ai Menu 
+│ *17* ❏ Plugin Menu 
 └─────────────────┈⳹
  ${readMore}` 
 ;
