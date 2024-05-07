@@ -16,7 +16,7 @@ global.rpg = {
       { name: "🌰 HANAMI~curse of nature", level: 45 },
       { name: "🌋 JOGO~ disaster spirit of flames", level: 50 },
       { name: "🧌 MAHITO~master of soul manipulation", level: 60 },
-      { name: "🧝‍♂️ GETO~master of curse manipulation", level: 70 },
+      { name: "🧝‍♂️🌀 GETO~master of curse manipulation", level: 70 },
       { name: "🐲 YUTA~the potential sorcerer", level: 80 },
       { name: "🔮🤞🏻GOJO~THE HONORED ONE🤞🏻🔮", level: 100 },
       { name: "🔱👨🏼‍🍳 RYOMEN SUKUNA~MASTER OF ALL 👨🏼‍🍳🔱", level: 200 },
