@@ -698,7 +698,7 @@ import {
   
   handler.help = ["play"];
   handler.tags = ["downloader"];
-  handler.command = /^(menu4)$/i;
+  handler.command = /^(demomenu)$/i;
   handler.limit = true;
   export default handler;
   
