@@ -7,23 +7,19 @@ let handler = async m => m.reply(`
 ─━━━✧✿✧━━━─
 
 Group1:
-_____________________
-https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk
+_____Hala weebs
+https://chat.whatsapp.com/Dk5mQ2e3LcBAYf75Q9VXcA
 _______________________
 
 Group2:
-_______________________
-https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW
+_______the community🌍
+https://chat.whatsapp.com/CxkwIQDANWlE37pyiyFajX
 _________________________
 
-*DEVELOPERS*/
-1:___________________🔰 *MOD'S* 🔰_
-wa.me/923184070915
-𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -𝘼𝙝𝙢𝙢𝙞
-
-2:__________________🔰 *MOD'S* 🔰_
-wa.me/233533763772
-*ABRAHAM DWAMENA*
+*DEVELOPER*/
+1:_____🦘_______🦘____🦘_
+wa.me/2348153995521
+Blac Yuji  -victor
 _______________________
 𝐋ᶦᵏᵉ  𝐂ᵒᵐᵐᵉⁿᵗ   𝐒ᵃᵛᵉ   𝐒ʰᵃʳᵉ
 💫   🍷   🎊   🍁   🌙   🪄 
@@ -35,10 +31,10 @@ _______________________
 ┊   💛
 ❤️
 *_▬▭▬▭▬▭▬▭▬▭_*
-*╰─ ➤XLICON V2*                    
+*╰─ MEI BOT v1.0*                    
                      ☟︎︎︎
- *̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊╰─☞︎︎︎TEAM XLICON
-Salman amand & Abraham Dwamena
+ *̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊╰─☞︎︎︎jujutsu inc
+https://youtu.be/GwaRztMaoY0?si=0uz1PZXmNgJo_Gkp
  ♥️     ✍🏻ㅤ   📩     📤 
  *_ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ   ˢᵃᵛᵉ    ˢʰᵃʳᵉ_*
 `.trim())
