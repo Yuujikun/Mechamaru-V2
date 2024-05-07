@@ -46,23 +46,23 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *INFO XLICON-V2 BOT* ⭐
+⭐ *MEI'S INFO* ⭐
 
   ╭───•✧✧•───╮
   *≡*. 
-│ ➫「 *Developer* 」
-│ ➫ *Name    :* Salman Ahmad & Abraham Dwamena
-│ ➫ *Place   :* Pakistan & Ghana
-│ ➫ *Gender  :*  ᴍᴀʟᴇ
-│ ➫ *Age     :* _18_ and _19_
-│ ➫ *Phone   :* wa.me/923184070915 & wa.me/+233533763772
-│ ➫ *YouTube :* youtube.com/@s4salmanyt 
-│ ➫ *GitHub  :* github.com/salmanytofficial
-│ ➫ *IG ID   :* instagram.com/ahmmikun
+│ ➫「 *Details* 」
+│ ➫ *Creator :* Blac Yuji
+│ ➫ *Place   :* KL, Malaysia
+│ ➫ *Gender  :* female
+│ ➫ *Age     :* 31
+│ ➫ *Phone   :* wa.me/2348153995521
+│ ➫ *YouTube :* None 
+│ ➫ *GitHub  :* github.com/Yuujikun
+│ ➫ *IG ID   :* instagram.com/black_yuuji
 │ ➫ *Channel* :https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
 │ ➫ *Status  :* Debugging
  Code._
-© XLICON-V2 BY Salman Ahmad and AB-Dev
+© _jujutsu inc_
 
 ⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
