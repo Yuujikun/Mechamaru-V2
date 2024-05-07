@@ -1,5 +1,5 @@
 var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
-  let owners = '233508488192 - *ABRAHAM*'; // Define owners variable
+  let owners = '2348153995521 - *BLACYUJI*'; // Define owners variable
 
   let fkontak = {
     "key": {
@@ -18,11 +18,9 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
   let pp = './Assets/XLICON-V2.jpg';
 
-  const cat = `*_XLICON-V2_*
+  const cat = `*_MEISAMA-V1_*
 
-*_—🔰 𝐗𝐥𝐢𝐜𝐨𝐧 𝐯𝟐  𝐃𝐄𝐕 𝟏 wa.me/+233533763772 %dont_contact_me%_*
-
-*_—🔰 𝐗𝐥𝐢𝐜𝐨𝐧 𝐯𝟐  𝐃𝐄𝐕 2 wa.me/+923184070915_*
+*_—🔰 meisama 𝐯1  𝐃𝐄𝐕 wa.me/+2348153995521 %dont_contact_me🫥%_*
 *---------------------*
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
@@ -33,6 +31,6 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 handler.help = ['devi', 'maindev'];
 handler.tags = ['info'];
-handler.command = /^(maindev|devi)$/i;
+handler.command = /^(maindev|creator)$/i;
 
 export default handler;
