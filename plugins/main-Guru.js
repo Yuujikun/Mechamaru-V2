@@ -7,7 +7,7 @@ let handler = async m => m.reply(`
 ─━━━✧✿✧━━━─
 
 Group1:
-_____Hala weebs
+_____Halal weebs
 https://chat.whatsapp.com/Dk5mQ2e3LcBAYf75Q9VXcA
 _______________________
 
