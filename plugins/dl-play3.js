@@ -15,11 +15,11 @@ const handler = async (m, {
     args,
     usedPrefix
 }) => {
-    if (!text) throw `give a text to search Example: *${usedPrefix + command}* Jesus Christ song`;
+    if (!text) throw `give a text to search Example: *${usedPrefix + command}* Jujutsu kaisen opening music`;
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `🔰──『 *XLICON-V2 PLAYER* 』── 🔰`;
+    const infoText = `🦚──『 *MEISAMA PLAYER* 』── 🦚`;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
