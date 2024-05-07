@@ -18,8 +18,8 @@ global.rpg = {
       { name: "🧌 MAHITO~master of soul manipulation", level: 60 },
       { name: "🧝‍♂️ GETO~master of curse manipulation", level: 70 },
       { name: "🐲 YUTA~the potential sorcerer", level: 80 },
-      { name: "🔮🤞🏻GOJO~THE HONORED ONE🤞🏻🔮", level: 90 },
-      { name: "🔱👨🏼‍🍳 RYOMEN SUKUNA~MASTER OF ALL 👨🏼‍🍳🔱", level: 100 },
+      { name: "🔮🤞🏻GOJO~THE HONORED ONE🤞🏻🔮", level: 100 },
+      { name: "🔱👨🏼‍🍳 RYOMEN SUKUNA~MASTER OF ALL 👨🏼‍🍳🔱", level: 200 },
     ];
 
     return role.reverse().find((role) => level >= role.level);
