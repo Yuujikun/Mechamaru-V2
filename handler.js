@@ -94,7 +94,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.afk))
                     user.afk = -1
                 if (!('afkReason' in user))
-                    user.afkReason = ''
+                    user.afkReason = 'unknown'
                 if (!('banned' in user))
                     user.banned = false
                 if (!isNumber(user.warn))
@@ -117,12 +117,12 @@ export async function handler(chatUpdate) {
                     age: -1,
                     regTime: -1,
                     afk: -1,
-                    afkReason: '',
+                    afkReason: 'unknown',
                     banned: false,
                     warn: 0,
                     level: 1,
                     role: 'common human',
-                    autolevelup: false,
+                    autolevelup: true,
                     
                 }
                 }
@@ -152,7 +152,7 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.chats[m.chat] = {
                     antiDelete: true,
-                    antiLink: false,
+                    antiLink: true,
                     antiSticker: false,
                     antiToxic: false,
                     detect: false,
