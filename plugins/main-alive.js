@@ -16,13 +16,13 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "Guru",
+        fileName: "Yuji",
     
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "THE XLICON-V2 IS ALIVE 🌟",
-          body: "XLICON BOT",
+          title: "OF COURSE IM ALIVE 🦚",
+          body: "MEI BOT",
           thumbnailUrl: img,
           sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
           mediaType: 1,
