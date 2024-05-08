@@ -134,7 +134,7 @@ export async function handler(chatUpdate) {
                 if (!("antiLink" in chat)) chat.antiLink = false
                 if (!("antiSticker" in chat)) chat.antiSticker = false
                 if (!("antiToxic" in chat)) chat.antiToxic = false
-                if (!("detect" in chat)) chat.detect = false
+                if (!("detect" in chat)) chat.detect = true
                 if (!("getmsg" in chat)) chat.getmsg = true
                 if (!("isBanned" in chat)) chat.isBanned = false
                 if (!("nsfw" in chat)) chat.nsfw = false
@@ -155,7 +155,7 @@ export async function handler(chatUpdate) {
                     antiLink: true,
                     antiSticker: false,
                     antiToxic: false,
-                    detect: false,
+                    detect: true,
                     expired: 0,
                     getmsg: true,
                     isBanned: false,
@@ -796,7 +796,7 @@ export async function presenceUpdate(presenceUpdate) {
         await console.log("AFK");
         const username = nouser[0].split("@")[0];
         const timeAfk = new Date() - user.afk;
-        const caption = `\n@${username} has stopped being AFK and is currently typing.\n\nReason: ${
+        const caption = `\n@${username} has broken the seal and is currently typing.\n\nReason: ${
             user.afkReason ? user.afkReason : "No Reason"
           }\nFor the past ${timeAfk.toTimeString()}.\n`;
           
