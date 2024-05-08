@@ -4,7 +4,7 @@ global.rpg = {
     if (isNaN(level)) return { name: "", level: "" };
 
     const role = [
-      { name: "common human", level: 0 },
+      { name: "common human", level: -1 },
       { name: "New born Sorcerer", level: 5 }, //»»————⍟——««\n
       { name: "Grade 3 curse spirit", level: 10 },
       { name: "Grade 3 sorcerer", level: 15 },
