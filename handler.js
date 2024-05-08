@@ -86,7 +86,7 @@ export async function handler(chatUpdate) {
                     if (!('name' in user))
                         user.name = m.name
                     if (!isNumber(user.age))
-                        user.age = -1
+                        user.age = 0
                     if (!isNumber(user.regTime))
                         user.regTime = -1
                 }
@@ -104,7 +104,7 @@ export async function handler(chatUpdate) {
                 if (!('role' in user))
                     user.role = 'Common human'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true
             } else {
                 global.db.data.users[m.sender] = {
                     exp: 0,
@@ -114,7 +114,7 @@ export async function handler(chatUpdate) {
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
-                    age: -1,
+                    age: 0,
                     regTime: -1,
                     afk: -1,
                     afkReason: 'unknown',
