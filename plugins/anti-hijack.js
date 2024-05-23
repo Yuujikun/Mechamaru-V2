@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 handler.help = ['antiadmin']
 handler.tags = ['group']
-handler.command = /^(antiadmin)$/i
+handler.command = /^(antihijack)$/i
 handler.admin = true
 handler.botAdmin = true
 
